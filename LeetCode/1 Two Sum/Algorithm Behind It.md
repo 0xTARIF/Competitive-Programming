@@ -1,0 +1,12 @@
+**Optimization DSA Behind It:**
+- **`vector<int>`**
+    - Access elements by index: `nums[i]`
+- **`unordered_map`**
+    - Key → value lookup in **O(1)**
+    - Store: number → index
+- **For loop**
+    - Single pass through the array
+- **Basic arithmetic**
+    - Compute: `needed = target - nums[i]`
+- **Big-O idea (very basic)**
+    - Know that **O(n)** is better than **O(n²)**
